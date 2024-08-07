@@ -19,7 +19,7 @@ def enable_nspr_build(enable):
         return enable
 
 
-system_lib_option(
+option(
     "--with-system-nspr",
     help="Use system NSPR",
     when=use_pkg_config,
