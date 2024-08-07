@@ -1296,7 +1296,7 @@ set_define(
 
 # ECMAScript Internationalization API Support (uses ICU)
 # ======================================================
-system_lib_option(
+option(
     "--with-system-icu",
     help="Use system ICU",
     when=use_pkg_config,
